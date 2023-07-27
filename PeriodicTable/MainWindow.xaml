@@ -1,0 +1,202 @@
+﻿<Window x:Class="PeriodicTable.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PeriodicTable"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="1200">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" Background="LightGreen" Foreground="White" Click="Button_Click" >1 H</Button>
+        <Button Grid.Row="0" Grid.Column="18" Background="Pink" Foreground="White" Click="Button_Click_1">2 He</Button>
+        <Label Grid.Row="0" Grid.Column="19" Background="White" Foreground="Pink" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">1 Period</Label>
+        <Label Grid.Row="1" Grid.Column="19" Background="White" Foreground="Pink" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">2</Label>
+        <Label Grid.Row="2" Grid.Column="19" Background="White" Foreground="Pink" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">3</Label>
+        <Label Grid.Row="3" Grid.Column="19" Background="White" Foreground="Pink" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">4</Label>
+        <Label Grid.Row="4" Grid.Column="19" Background="White" Foreground="Pink" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">5</Label>
+        <Label Grid.Row="5" Grid.Column="19" Background="White" Foreground="Pink" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">6</Label>
+        <Label Grid.Row="6" Grid.Column="19" Background="White" Foreground="Pink" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">7</Label>
+        <Label Grid.Row="7" Grid.Column="18" Background="White" Foreground="Pink" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center"  FontSize="9">Noble Gases</Label>
+        <Label Grid.Row="0" Grid.Column="1" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">2</Label>
+        <Label Grid.Row="2" Grid.Column="3" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">3</Label>
+        <Label Grid.Row="2" Grid.Column="4" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">4</Label>
+        <Label Grid.Row="7" Grid.Column="8" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center">3</Label>
+        <Label Grid.Row="2" Grid.Column="5" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">5</Label>
+        <Label Grid.Row="2" Grid.Column="6" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom"> 6
+        </Label>
+        <Label Grid.Row="2" Grid.Column="7" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">7</Label>
+        <Label Grid.Row="2" Grid.Column="8" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">8</Label>
+        <Label Grid.Row="2" Grid.Column="9" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">9</Label>
+        <Label Grid.Row="2" Grid.Column="10" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">10</Label>
+        <Label Grid.Row="2" Grid.Column="11" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">11</Label>
+        <Label Grid.Row="2" Grid.Column="12" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">12</Label>
+        <Label Grid.Row="0" Grid.Column="13" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom"> 13
+        </Label>
+        <Label Grid.Row="0" Grid.Column="14" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">14</Label>
+        <Label Grid.Row="0" Grid.Column="15" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">15</Label>
+        <Label Grid.Row="0" Grid.Column="16" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">16</Label>
+        <Label Grid.Row="0" Grid.Column="17" Background="White" Foreground="Black" HorizontalContentAlignment="Center"  VerticalContentAlignment="Bottom">17</Label>
+        <Button Grid.Row="1" Grid.Column="18" Background="Pink" Foreground="White" Click="Button_Click_2">10 Ne</Button>
+        <Button Grid.Row="2" Grid.Column="18" Background="Pink" Foreground="White" Click="Button_Click_3">18 Ar</Button>
+        <Button Grid.Row="3" Grid.Column="18" Background="Pink" Foreground="White" Click="Button_Click_4">36 Kr</Button>
+        <Button Grid.Row="4" Grid.Column="18" Background="Pink" Foreground="White" Click="Button_Click_5">54 Xe</Button>
+        <Button Grid.Row="5" Grid.Column="18" Background="Pink" Foreground="White" Click="Button_Click_6">86 Rn</Button>
+        <Button Grid.Row="6" Grid.Column="18" Background="Pink" Foreground="White" Click="Button_Click_7">118 Og</Button>
+        <Button Grid.Row="1" Grid.Column="17" Background="Gold" Foreground="White" Click="Button_Click_8">9 F</Button>
+        <Button Grid.Row="2" Grid.Column="17" Background="Gold" Foreground="White" Click="Button_Click_9">17 Cl</Button>
+        <Button Grid.Row="3" Grid.Column="17" Background="Gold" Foreground="White" Click="Button_Click_10">35 Br</Button>
+        <Button Grid.Row="4" Grid.Column="17" Background="Gold" Foreground="White" Click="Button_Click_11">53 I</Button>
+        <Button Grid.Row="5" Grid.Column="17" Background="Gold" Foreground="White" Click="Button_Click_12">85 As</Button>
+        <Button Grid.Row="6" Grid.Column="17" Background="Gold" Foreground="White" Click="Button_Click_13">117 Ts</Button>
+        <Label Grid.Row="7" Grid.Column="17" Background="White" Foreground="Gold" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center"  FontSize="9">Halogens</Label>
+        <Button Grid.Row="1" Grid.Column="16" Background="LightGreen" Foreground="White" Click="Button_Click_14">8 O</Button>
+        <Button Grid.Row="2" Grid.Column="16" Background="LightGreen" Foreground="White" Click="Button_Click_15">16 S</Button>
+        <Button Grid.Row="3" Grid.Column="16" Background="LightGreen" Foreground="White" Click="Button_Click_16">34 Se</Button>
+        <Label Grid.Row="7" Grid.Column="16" Background="White" Foreground="LightGreen" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center"  FontSize="9"> Nonmetals
+        </Label>
+        <Label Grid.Row="7" Grid.Column="15" Background="White" Foreground="DarkGreen" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center"  FontSize="9">Metalloids
+        </Label>
+        <Label Grid.Row="7" Grid.Column="13" Grid.ColumnSpan="2" Background="White" Foreground="CornflowerBlue" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center"  FontSize="9">Post-Transition Metals
+        </Label>
+        <Button Grid.Row="4" Grid.Column="16" Background="DarkGreen" Foreground="White" Click="Button_Click_17">52 Te</Button>
+        <Button Grid.Row="5" Grid.Column="16" Background="CornflowerBlue" Foreground="White" Click="Button_Click_18">84 Po</Button>
+        <Button Grid.Row="6" Grid.Column="16" Background="CornflowerBlue" Foreground="White" Click="Button_Click_19">116 Lv</Button>
+        <Button Grid.Row="1" Grid.Column="15" Background="LightGreen" Foreground="White" Click="Button_Click_20">7 N</Button>
+        <Button Grid.Row="2" Grid.Column="15" Background="LightGreen" Foreground="White" Click="Button_Click_21">15 P</Button>
+        <Button Grid.Row="3" Grid.Column="15" Background="DarkGreen" Foreground="White" Click="Button_Click_22">33 As</Button>
+        <Button Grid.Row="4" Grid.Column="15" Background="DarkGreen" Foreground="White" Click="Button_Click_23">51 Sb</Button>
+        <Button Grid.Row="5" Grid.Column="15" Background="CornflowerBlue" Foreground="White" Click="Button_Click_24">83 Bi</Button>
+        <Button Grid.Row="6" Grid.Column="15" Background="CornflowerBlue" Foreground="White" Click="Button_Click_25">115 Mc</Button>
+        <Button Grid.Row="1" Grid.Column="14" Background="LightGreen" Foreground="White" Click="Button_Click_26">6 C</Button>
+        <Button Grid.Row="2" Grid.Column="14" Background="DarkGreen" Foreground="White" Click="Button_Click_27">14 Si</Button>
+        <Button Grid.Row="3" Grid.Column="14" Background="DarkGreen" Foreground="White" Click="Button_Click_28">32 Ge</Button>
+        <Button Grid.Row="4" Grid.Column="14" Background="CornflowerBlue" Foreground="White" Click="Button_Click_29">50 Sn</Button>
+        <Button Grid.Row="5" Grid.Column="14" Background="CornflowerBlue" Foreground="White" Click="Button_Click_30">82 Pb</Button>
+        <Button Grid.Row="6" Grid.Column="14" Background="CornflowerBlue" Foreground="White" Click="Button_Click_31">114 Fl</Button>
+        <Button Grid.Row="1" Grid.Column="13" Background="DarkGreen" Foreground="White" Click="Button_Click_32">5 B</Button>
+        <Button Grid.Row="2" Grid.Column="13" Background="CornflowerBlue" Foreground="White" Click="Button_Click_33">13 Al</Button>
+        <Button Grid.Row="3" Grid.Column="13" Background="CornflowerBlue" Foreground="White" Click="Button_Click_34">31 Ga</Button>
+        <Button Grid.Row="4" Grid.Column="13" Background="CornflowerBlue" Foreground="White" Click="Button_Click_35">49 In</Button>
+        <Button Grid.Row="5" Grid.Column="13" Background="CornflowerBlue" Foreground="White" Click="Button_Click_36">81 Tl</Button>
+        <Button Grid.Row="6" Grid.Column="13" Background="CornflowerBlue" Foreground="White" Click="Button_Click_37">113 Nh</Button>
+        <Button Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" Background="SkyBlue" Foreground="White">57-71 La---Lu</Button>
+        <Button Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2" Background="DeepSkyBlue" Foreground="White">89-103 Ac-Lr</Button>
+        <Button Grid.Row="8" Grid.Column="2" Background="SkyBlue" Foreground="White" Click="Button_Click_38">57 La</Button>
+        <Button Grid.Row="8" Grid.Column="3" Background="SkyBlue" Foreground="White" Click="Button_Click_39">58 Ce</Button>
+        <Button Grid.Row="8" Grid.Column="4" Background="SkyBlue" Foreground="White" Click="Button_Click_40">59 Pr</Button>
+        <Button Grid.Row="8" Grid.Column="5" Background="SkyBlue" Foreground="White" Click="Button_Click_41">60 Nd</Button>
+        <Button Grid.Row="8" Grid.Column="6" Background="SkyBlue" Foreground="White" Click="Button_Click_42">61 Pm</Button>
+        <Button Grid.Row="8" Grid.Column="7" Background="SkyBlue" Foreground="White" Click="Button_Click_43">62 Sm</Button>
+        <Button Grid.Row="8" Grid.Column="8" Background="SkyBlue" Foreground="White" Click="Button_Click_44">63 Eu</Button>
+        <Button Grid.Row="8" Grid.Column="9" Background="SkyBlue" Foreground="White" Click="Button_Click_45">64 Gd</Button>
+        <Button Grid.Row="8" Grid.Column="10" Background="SkyBlue" Foreground="White" Click="Button_Click_46">65 Tb</Button>
+        <Button Grid.Row="8" Grid.Column="11" Background="SkyBlue" Foreground="White" Click="Button_Click_47">66 Dy</Button>
+        <Button Grid.Row="8" Grid.Column="12" Background="SkyBlue" Foreground="White" Click="Button_Click_48">67 Ho</Button>
+        <Button Grid.Row="8" Grid.Column="13" Background="SkyBlue" Foreground="White" Click="Button_Click_49">68 Er</Button>
+        <Button Grid.Row="8" Grid.Column="14" Background="SkyBlue" Foreground="White" Click="Button_Click_50">69 Tm</Button>
+        <Button Grid.Row="8" Grid.Column="15" Background="SkyBlue" Foreground="White" Click="Button_Click_51">70 Yb</Button>
+        <Button Grid.Row="8" Grid.Column="16" Background="SkyBlue" Foreground="White" Click="Button_Click_52">71 Lu</Button>
+        <Button Grid.Row="9" Grid.Column="2" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_53">89 Ac</Button>
+        <Button Grid.Row="9" Grid.Column="3" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_54">90 Th</Button>
+        <Button Grid.Row="9" Grid.Column="4" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_55">91 Pa</Button>
+        <Button Grid.Row="9" Grid.Column="5" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_56">92 U</Button>
+        <Button Grid.Row="9" Grid.Column="6" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_57">93 Np</Button>
+        <Button Grid.Row="9" Grid.Column="7" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_58">94 Pu</Button>
+        <Button Grid.Row="9" Grid.Column="8" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_59">95 Am</Button>
+        <Button Grid.Row="9" Grid.Column="9" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_60">96 Cm</Button>
+        <Button Grid.Row="9" Grid.Column="10" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_61">97 Bk</Button>
+        <Button Grid.Row="9" Grid.Column="11" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_62">98 Cf</Button>
+        <Button Grid.Row="9" Grid.Column="12" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_63">99 Es</Button>
+        <Button Grid.Row="9" Grid.Column="13" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_64">100 Fm</Button>
+        <Button Grid.Row="9" Grid.Column="14" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_65">101 Md</Button>
+        <Button Grid.Row="9" Grid.Column="15" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_66">102 No</Button>
+        <Button Grid.Row="9" Grid.Column="16" Background="DeepSkyBlue" Foreground="White" Click="Button_Click_67">103 Lr</Button>
+        <Button Grid.Row="3" Grid.Column="3" Background="Silver" Foreground="White" Click="Button_Click_68">21 Sc</Button>
+        <Button Grid.Row="4" Grid.Column="3" Background="Silver" Foreground="White" Click="Button_Click_69">39 Y</Button>
+        <Button Grid.Row="3" Grid.Column="4" Background="Silver" Foreground="White" Click="Button_Click_70">22 Ti</Button>
+        <Button Grid.Row="4" Grid.Column="4" Background="Silver" Foreground="White" Click="Button_Click_71">40 Zr</Button>
+        <Button Grid.Row="5" Grid.Column="4" Background="Silver" Foreground="White" Click="Button_Click_72">72 Hf</Button>
+        <Button Grid.Row="6" Grid.Column="4" Background="Silver" Foreground="White" Click="Button_Click_73">104 Rf</Button>
+        <Button Grid.Row="3" Grid.Column="5" Background="Silver" Foreground="White" Click="Button_Click_74">23 V</Button>
+        <Button Grid.Row="4" Grid.Column="5" Background="Silver" Foreground="White" Click="Button_Click_75">41 Nb</Button>
+        <Button Grid.Row="5" Grid.Column="5" Background="Silver" Foreground="White" Click="Button_Click_76">73 Ta</Button>
+        <Button Grid.Row="6" Grid.Column="5" Background="Silver" Foreground="White" Click="Button_Click_77">105 Db</Button>
+        <Button Grid.Row="3" Grid.Column="6" Background="Silver" Foreground="White" Click="Button_Click_78">24 Cr</Button>
+        <Button Grid.Row="4" Grid.Column="6" Background="Silver" Foreground="White" Click="Button_Click_79">42 Mo</Button>
+        <Button Grid.Row="5" Grid.Column="6" Background="Silver" Foreground="White" Click="Button_Click_80">74 W</Button>
+        <Button Grid.Row="6" Grid.Column="6" Background="Silver" Foreground="White" Click="Button_Click_81">106 Sg</Button>
+        <Button Grid.Row="3" Grid.Column="7" Background="Silver" Foreground="White" Click="Button_Click_82">25 Mn</Button>
+        <Button Grid.Row="4" Grid.Column="7" Background="Silver" Foreground="White" Click="Button_Click_83">43 Tc</Button>
+        <Button Grid.Row="5" Grid.Column="7" Background="Silver" Foreground="White" Click="Button_Click_84">75 Re</Button>
+        <Button Grid.Row="6" Grid.Column="7" Background="Silver" Foreground="White" Click="Button_Click_85">107 Bh</Button>
+        <Button Grid.Row="3" Grid.Column="8" Background="Silver" Foreground="White" Click="Button_Click_86">26 Fe</Button>
+        <Button Grid.Row="4" Grid.Column="8" Background="Silver" Foreground="White" Click="Button_Click_87">44 Ru</Button>
+        <Button Grid.Row="5" Grid.Column="8" Background="Silver" Foreground="White" Click="Button_Click_88">76 Os</Button>
+        <Button Grid.Row="6" Grid.Column="8" Background="Silver" Foreground="White" Click="Button_Click_89">108 Hs</Button>
+        <Button Grid.Row="3" Grid.Column="9" Background="Silver" Foreground="White" Click="Button_Click_90">27 Co</Button>
+        <Button Grid.Row="4" Grid.Column="9" Background="Silver" Foreground="White" Click="Button_Click_91">45 Rh</Button>
+        <Button Grid.Row="5" Grid.Column="9" Background="Silver" Foreground="White" Click="Button_Click_92">77 Ir</Button>
+        <Button Grid.Row="6" Grid.Column="9" Background="Silver" Foreground="White" Click="Button_Click_93">109 Mt</Button>
+        <Button Grid.Row="3" Grid.Column="10" Background="Silver" Foreground="White" Click="Button_Click_94">28 Ni</Button>
+        <Button Grid.Row="4" Grid.Column="10" Background="Silver" Foreground="White" Click="Button_Click_95">46 Pd</Button>
+        <Button Grid.Row="5" Grid.Column="10" Background="Silver" Foreground="White" Click="Button_Click_96">78 Pt</Button>
+        <Button Grid.Row="6" Grid.Column="10" Background="Silver" Foreground="White" Click="Button_Click_97">110 Ds</Button>
+        <Button Grid.Row="3" Grid.Column="11" Background="Silver" Foreground="White" Click="Button_Click_98">29 Cu</Button>
+        <Button Grid.Row="4" Grid.Column="11" Background="Silver" Foreground="White" Click="Button_Click_99">47 Ag</Button>
+        <Button Grid.Row="5" Grid.Column="11" Background="Silver" Foreground="White" Click="Button_Click_100">79 Au</Button>
+        <Button Grid.Row="6" Grid.Column="11" Background="Silver" Foreground="White" Click="Button_Click_101">111 Rg</Button>
+        <Button Grid.Row="3" Grid.Column="12" Background="Silver" Foreground="White" Click="Button_Click_102">30 Zn</Button>
+        <Button Grid.Row="4" Grid.Column="12" Background="Silver" Foreground="White" Click="Button_Click_103">48 Cd</Button>
+        <Button Grid.Row="5" Grid.Column="12" Background="Silver" Foreground="White" Click="Button_Click_104">80 Mg</Button>
+        <Button Grid.Row="6" Grid.Column="12" Background="Silver" Foreground="White" Click="Button_Click_105">112 Cn</Button>
+        <Label Grid.Row="7" Grid.Column="3" Background="White" Foreground="Silver" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center"  FontSize="6">Transition Metals</Label>
+        <Button Grid.Row="1" Grid.Column="0" Background="Red" Foreground="White" Click="Button_Click_106">3 Li</Button>
+        <Button Grid.Row="2" Grid.Column="0" Background="Red" Foreground="White" Click="Button_Click_107">11 Na </Button>
+        <Button Grid.Row="3" Grid.Column="0" Background="Red" Foreground="White" Click="Button_Click_108">19 K</Button>
+        <Button Grid.Row="4" Grid.Column="0" Background="Red" Foreground="White" Click="Button_Click_109">37 Rb</Button>
+        <Button Grid.Row="5" Grid.Column="0" Background="Red" Foreground="White" Click="Button_Click_110">55 Cs</Button>
+        <Button Grid.Row="6" Grid.Column="0" Background="Red" Foreground="White" Click="Button_Click_111">87 Fr</Button>
+        <Label Grid.Row="7" Grid.Column="0" Background="White" Foreground="Red" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center" FontSize="8">Alkali Metals</Label>
+        <Button Grid.Row="1" Grid.Column="1" Background="DarkOrange" Foreground="White" Click="Button_Click_112">4 Be</Button>
+        <Button Grid.Row="2" Grid.Column="1" Background="DarkOrange" Foreground="White" Click="Button_Click_113">12 Mg</Button>
+        <Button Grid.Row="3" Grid.Column="1" Background="DarkOrange" Foreground="White" Click="Button_Click_114">20 Ca</Button>
+        <Button Grid.Row="4" Grid.Column="1" Background="DarkOrange" Foreground="White" Click="Button_Click_115">38 Sr</Button>
+        <Button Grid.Row="5" Grid.Column="1" Background="DarkOrange" Foreground="White" Click="Button_Click_116">56 Ba</Button>
+        <Button Grid.Row="6" Grid.Column="1" Background="DarkOrange" Foreground="White" Click="Button_Click_117">88 Ra</Button>
+        <Label Grid.Row="7" Grid.Column="1" Background="White" Foreground="DarkOrange" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center" FontSize="5">Alkaline Earth Metals</Label>
+    </Grid>
+</Window>
